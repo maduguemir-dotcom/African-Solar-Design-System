@@ -11,8 +11,8 @@ st.title("☀️ Solar PV Designer Pro Africa")
 st.markdown("Professional solar system design and reporting for Africa")
 st.markdown("---")
 
-#API_URL = "http://localhost:8000/api"
-API_URL = "https://YOUR-BACKEND-URL.onrender.com/api"
+API_URL = "http://localhost:8000/api"
+#API_URL = "https://YOUR-BACKEND-URL.onrender.com/api"
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 if "token" not in st.session_state:
